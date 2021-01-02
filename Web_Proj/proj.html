@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>DSG Physics Academy</title>
+	<meta name="viewport"content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="proj.css">
+	<link href="https://fonts.googleapis.com/css2?family=Langar&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  	<link rel="icon" type="image/jpg" href="images/bkg_lpt.jpg"/>
+</head>
+<body>
+	<header>
+		<nav>
+			<div class="row clearfix">
+				<img src="images/bkg_lpt.jpg" class="logo">
+				<ul class="main-nav" animated wobble id="check-class">
+					<li><a href="#">CONTENTS</a></li>
+					<li><a href="#">RECENT DEVELOPMENTS</a></li>
+					<li><a href="#">SIGN UP</a></li>
+				</ul>
+				<a href="#" class="mobile-icon" onclick="slideshow()"><i class="fa fa-th-list"></i></a>
+			</div>
+		</nav>
+		<div class="main-content-header">
+			<h1>WELCOME TO <span class="colorchange">DSG ACADEMY OF PHYSICS</span>.<br>FOR ALL THE PHYSICS LOVERS OUT THERE</h1>
+			<a href="#" class="btn btn-full">Start Learning</a>
+			<a href="#" class="btn btn-nav">Sign Up For Free</a>
+		</div>
+	</header>
+</body>
+<script type="text/javascript">
+	function slideshow(){
+	var x=document.getElementById('check-class');
+	if(x.style.display==="none"){
+		x.style.display="block";
+	}
+	else{
+		x.style.display="none";
+	}
+}
+</script>
+</html>
