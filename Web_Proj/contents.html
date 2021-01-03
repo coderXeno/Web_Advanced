@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+	<title>Contents</title>
+	<link rel="stylesheet" type="text/css" href="contents.css">
+	<link href="https://fonts.googleapis.com/css2?family=Langar&display=swap" rel="stylesheet">
+	<link rel="icon" type="image/jpg" href="images/bkg_lpt.jpg"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body class="dex">
+	<header>
+		<div class="fix">
+ 			<nav class="navbar navbar-expand-lg fixed-top ">  
+ 			<a class="navbar-brand" href="#">  </a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" 	aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">  
+ 				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse " id="navbarSupportedContent">     
+				<ul class="navbar-nav mr-4" id="resizerm">
+ 					<li class="nav-item"><a class="nav-link " data-value="about" href="#">About</a></li>
+ 					<li class="nav-item"><a class="nav-link " data-value="home" href="./proj.html">Home</a></li>  
+					<li class="nav-item"><a class="nav-link " data-value="signin" href="./signup.html">Sign Up</a></li>
+ 					<li class="nav-item"><a class="nav-link " data-value="blog" href="#">Blog</a></li>   
+					<li class="nav-item"><a class="nav-link " data-value="team" href="#">Dev</a></li>  
+					<li class="nav-item"><a class="nav-link " data-value="contact" href="#">Contact</a></li> 
+				</ul> 
+				<a href="#" class="mobile-icon" onclick="slideshow()"><i class="fa fa-th-large" style="font-size:36px;"></i></a>
+			</div>
+			</nav>
+			<nav class="cnt">
+				<div class="container pt-3">
+					<h1 class="animate__animated animate__bounceInLeft" id="re">Hey learner, let's have a look at the contents</h1>
+				</div>
+			</nav>
+			<ul class="list animate__animated animate__bounceInDown">
+				<li><h3><a href="#" class="link">Laser</a></h3></li>
+				<li><h3><a href="#" class="link">Dielectrics</a></h3></li>
+				<li><h3><a href="#" class="link">Maxwell's Equations</a></h3></li>
+				<li><h3><a href="#" class="link">Mechanics</a></h3></li>
+				<li><h3><a href="#" class="link">Oscillations</a></h3></li>
+				<li><h3><a href="#" class="link">Maxwell's Equations</a></h3></li>
+				<li><h3><a href="#" class="link">Quantum Theory</a></h3></li>
+				<li><h3><a href="#" class="link">Quantum Mechanics</a></h3></li>
+				<li><h3><a href="#" class="link">Statistical Mechanics</a></h3></li>
+			</ul>
+		</div>
+	</header>
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+</body>
+<script type="text/javascript">
+	function slideshow(){
+		var x=document.getElementById('resizerm');
+		if(x.style.display==="none"){
+			x.style.display="block";
+		}
+		else{
+			x.style.display="none";
+		}
+	}
+</script>
+</html>
