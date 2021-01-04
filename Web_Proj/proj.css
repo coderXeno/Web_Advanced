@@ -93,6 +93,7 @@ h1{
 
 .main-nav li a:hover{
 	border-bottom: 2px solid #bf55ec;
+	border-top: 2px solid #bf55ec;
 }
 
 .btn nav: hover{
@@ -112,10 +113,10 @@ h1{
 }
 
 .colorchange{
-	animation: colorchangethapa 1s infinite;
+	animation: animator 1s infinite;
 }
 
-@keyframes colorchangethapa{
+@keyframes animator{
 	0%{color: red;}
 	25%{color: #bf55ec;}
 	50%{color: white;}
@@ -230,3 +231,4 @@ h1{
 		font-size: 80%;
 	}
 }
+
