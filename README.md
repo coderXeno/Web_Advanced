@@ -1,0 +1,9 @@
+# Web_Advanced
+Responsive Website complete with animation, Javascript and advanced html and css usage.
+This is a website I designed using HTML, CSS, Javascript as basics. It uses Bootstrap 4 as a bonus and gives the facility of a signup form
+as well as a contact form. I will be developing the backed of this website soon enough, so that the website redirects to the original page after a successful
+registration. The rest of the content of the website will also be developed in due time as I keep learning. The website also uses a lot
+of interesting features like interactive links, interactive mobile type icons, cool fonts etc from Font Awesome, Google fonts. The 
+website is responsive as well. I would like to apologize for any mistakes I have might have made.I am still learning and I will continue 
+to develop more projects on the way. 
+Thank you.
